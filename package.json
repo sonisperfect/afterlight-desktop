@@ -1,0 +1,32 @@
+{
+  "name": "afterlight-desktop",
+  "productName": "AFTERLIGHT",
+  "version": "0.6.0",
+  "description": "AFTERLIGHT — Song of the Broken Moon (xgame.ai) desktop",
+  "main": "main.js",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "sync": "./sync-game.sh",
+    "dist:mac": "electron-builder --mac",
+    "dist:win": "electron-builder --win",
+    "dist": "electron-builder --mac --win"
+  },
+  "devDependencies": {
+    "electron": "^45.5.0",
+    "electron-builder": "^26.18.0"
+  },
+  "build": {
+    "appId": "ai.xgame.afterlight",
+    "productName": "AFTERLIGHT",
+    "artifactName": "AFTERLIGHT-${version}-${os}-${arch}.${ext}",
+    "directories": { "output": "dist", "buildResources": "build" },
+    "files": ["main.js", "preload.js", "login-preload.js", "package.json"],
+    "extraResources": [{ "from": "game", "to": "game", "filter": ["**/*"] }],
+    "asar": true,
+    "mac": { "category": "public.app-category.games", "target": [{ "target": "dmg", "arch": ["arm64", "x64"] }, { "target": "zip", "arch": ["arm64", "x64"] }], "icon": "build/icon.icns", "hardenedRuntime": false, "identity": null },
+    "win": { "target": [{ "target": "nsis", "arch": ["x64"] }], "icon": "build/icon.png" },
+    "nsis": { "oneClick": false, "allowToChangeInstallationDirectory": true, "perMachine": false, "shortcutName": "AFTERLIGHT" },
+    "dmg": { "title": "AFTERLIGHT" }
+  }
+}
