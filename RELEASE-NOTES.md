@@ -1,5 +1,6 @@
-AFTERLIGHT — Song of the Broken Moon · 설치형 PC 앱 0.6.1
+AFTERLIGHT — Song of the Broken Moon · 설치형 PC 앱 0.7.0
 
 - macOS (Apple Silicon / Intel), Windows x64
+- 0.7.0: 세 맵의 환경을 실제 3D 에셋으로 교체 (등불 시장 가옥·석등·대나무 울타리, 주조장 벽돌 공장·굴뚝·가스등, 달빛 정원 폐허 기둥·아치·수련), 영웅별 기술·궁극기·투사체 이펙트 전면 교체(Epic Toon FX), 망토·스카프·리본 천 시뮬, 승리 불꽃놀이
 - xgame.ai 계정으로 로그인하면 웹 플레이어와 같은 판에서 온라인 대전 (KO 러시 · 샤드 서지 · 라스트 라이트), 스토리 1막, AI 대전
 - 무서명 빌드입니다: macOS 는 앱을 우클릭 → 열기, Windows 는 SmartScreen 에서 "추가 정보 → 실행"
