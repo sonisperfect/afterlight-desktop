@@ -1,6 +1,7 @@
-AFTERLIGHT — Song of the Broken Moon · 설치형 PC 앱 0.7.5
+AFTERLIGHT — Song of the Broken Moon · 설치형 PC 앱 0.7.6
 
 - macOS (Apple Silicon / Intel), Windows x64
+- 0.7.6: 비단 장막 은신 구역을 휘장 줄로
 - 0.7.5: 휴대폰 성능 안전장치, 시장 천막 엄폐물을 수레로
 - 0.7.4: 3D 등불 거리 타이틀 화면(마지막 영웅), 보스 등장·단계·분노·약점·처치 이펙트
 - 0.7.3: 앰비언트 오클루전(입체감), 정원 벚꽃잎, 가장자리 폐허 배치 정리

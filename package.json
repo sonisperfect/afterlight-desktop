@@ -1,7 +1,7 @@
 {
   "name": "afterlight-desktop",
   "productName": "AFTERLIGHT",
-  "version": "0.7.5",
+  "version": "0.7.6",
   "description": "AFTERLIGHT — Song of the Broken Moon (xgame.ai) desktop",
   "main": "main.js",
   "private": true,
