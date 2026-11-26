@@ -1,6 +1,7 @@
-AFTERLIGHT — Song of the Broken Moon · 설치형 PC 앱 0.7.6
+AFTERLIGHT — Song of the Broken Moon · 설치형 PC 앱 0.7.7
 
 - macOS (Apple Silicon / Intel), Windows x64
+- 0.7.7: 대전 결과 화면을 등불 거리 무대로(승리 MVP·패배 시 어두운 조명), 무승부가 패배로 기록되던 문제 수정
 - 0.7.6: 비단 장막 은신 구역을 휘장 줄로
 - 0.7.5: 휴대폰 성능 안전장치, 시장 천막 엄폐물을 수레로
 - 0.7.4: 3D 등불 거리 타이틀 화면(마지막 영웅), 보스 등장·단계·분노·약점·처치 이펙트
